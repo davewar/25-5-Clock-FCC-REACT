@@ -33,7 +33,7 @@ const LengthComponent = () => {
                       
                              if(item === "break" && item2 === "decrement"){
                                              
-                                               if(breakVal >= 60 ){
+                                               if(breakVal >= 60 || breakVal <=1){ // amendment file
                                                        //do nothing
                                                       } else {  
                                                                                                                                                 
